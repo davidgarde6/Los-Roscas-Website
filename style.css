@@ -167,22 +167,26 @@ section img#moon
 {
     width: 60%;
 }
-.sec div ul
+.sec ul
 {
-    list-style: none;
-}
-.sec div ul li
-{
-    list-style: none;
-    margin: 50px;
+    display: flex;
+    justify-content: left;
     align-items: center;
-    justify-content: center;
 }
-.sec div ul li p
+.sec ul li
+{
+    list-style: none;
+}
+.sec ul li p
 {
     font-size: 1em;
     color:black;
     text-align: justify;
+}
+.sec ul li img
+{
+    margin-left: 50px;
+    width: 70%;
 }
 .social{
     display: flex;
