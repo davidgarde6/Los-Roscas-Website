@@ -62,7 +62,7 @@ header div
 {
     display: none;
     position: absolute;
-    top: 49px;
+    top: 48px;
     height: 200px;
     width: 100%;
     background: rgb(32, 32, 32);
@@ -157,18 +157,13 @@ section img#moon
     background: white;
     justify-content: center;
 }
-.sec h2
+.sec img
 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color:black;
-}
-.sec div
-{
-    width: 60%;
+    width: 20%;
 }
 .sec ul
 {
+    margin-top: 20px;
     display: flex;
     justify-content: left;
     align-items: center;
