@@ -10,7 +10,8 @@
 body{
     min-height: 100vh;
     overflow-x: hidden;
-    background:linear-gradient(to top,#525252, #adadad);
+    background-image: url('img/fondo periodico.png');
+    background-repeat: repeat;
 } 
 header
 {
@@ -104,6 +105,7 @@ header div li:hover
     color: rgb(32, 32, 32);
 }
 .social{
+    margin-top: -7px;
     display: flex;
     background: black;
     padding: 10px;
@@ -126,4 +128,37 @@ header div li:hover
 {
     width: 100%;
     filter:invert();
+}
+.sec img.periodico
+{
+    width: 110vw;
+    height: 20vw;
+    filter:brightness(.5);
+    filter:contrast(1);
+}
+.sec img.periodico2
+{
+    width: 110vw;
+    height: 10vw;
+    filter:brightness(.5);
+    filter:contrast(1);
+}
+.sec ul
+{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec ul li
+{
+    margin-top: 50px;
+    list-style: none;
+}
+.sec ul li img
+{
+    margin-top: -125px;
+    margin-left: 30px;
+    width: 30%;
 }
