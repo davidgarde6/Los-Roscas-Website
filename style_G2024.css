@@ -103,6 +103,10 @@ header div li:hover
     background: #fff;
     color: rgb(32, 32, 32);
 }
+header div#divGalas li a#active
+{
+    filter:brightness(1);
+}
 .social{
     display: flex;
     background: black;

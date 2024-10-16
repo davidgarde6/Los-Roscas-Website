@@ -52,6 +52,10 @@ header ul li a:hover
 {
     background: rgb(32, 32, 32);
 }
+header div#divGalas li a#active
+{
+    filter:brightness(1);
+}
 header ul li a.active
 {
     background: linear-gradient(rgb(53, 53, 53) 0px, rgb(53, 53, 53) 95%, white 96%);
