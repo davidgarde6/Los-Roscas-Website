@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style_descripciones.css">
     </head>
     <body>
-        <img href="#" src="img/Logo_corner.png" class="logo-image">
+        <img href="#" src="img/logo b&w.png" class="logo-image">
         <header>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -57,16 +57,10 @@
             <a href="https://www.instagram.com/losroscas/" target="_blank"><img src="/Los-Roscas-Website/img/insta_icon.png"></a>
         </div>
         <script>
-            let header = document.querySelector('header');
             let divFiestas = document.getElementById('divFiestas');
             let divGalas = document.getElementById('divGalas');
             let btnFiestas = document.getElementById('btnFiestas');
             let btnGalas = document.getElementById('btnGalas');
-
-            window.addEventListener('scroll', function(){
-                let value = window.scrollY;
-                header.style.top = value * 0.5 + 'px';
-            })
 
             btnFiestas.addEventListener('mouseover', function(){
                 divFiestas.style.display = 'flex';

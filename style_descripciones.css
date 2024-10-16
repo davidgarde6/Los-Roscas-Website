@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 *
 {
     margin: 0;
@@ -29,9 +29,11 @@ header
 .logo-image
 {
     position:absolute;
-    width: 15%;
+    width: 20%;
     height: auto;
     z-index: 10001;
+    padding: 60px;
+    transform:rotate(10deg)
 }
 header ul
 {
