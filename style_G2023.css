@@ -52,7 +52,7 @@ header ul li a:hover
 {
     background: rgb(32, 32, 32);
 }
-header div#divGalas li a#active
+header div#divGalas li a.active img
 {
     filter:brightness(1);
 }
