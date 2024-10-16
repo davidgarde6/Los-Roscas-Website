@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 *
 {
     margin: 0;
@@ -61,7 +61,7 @@ header div
 {
     display: none;
     position: absolute;
-    top: 48px;
+    top: 55px;
     height: 200px;
     width: 100%;
     background: rgb(32, 32, 32);
